@@ -1,0 +1,14 @@
+# Import ‘movies.json’ into mongodb server into a database named ‘entertainment’ and a collection named ‘movies’:
+mongoimport  --db entertainment --collection movies --file movie.json --jsonArray
+
+# Write a mongodb query to find the year in which most number of movies were released:
+db.movies.aggregate([{$group:{"_id":"$year", "yearly_sum":{$sum:1}}}, {$sort: {"yearly_sum": -1}},{ $limit : 1 }])
+
+# Write a mongodb query to find the count of movies released after the year 1999:
+db.movies.aggregate([{$match:{year:{$gt:1999}}}, {$count:"movie_count"}])
+
+# Write a query to find out the average votes for movies released in 2007:
+db.movies.aggregate([{$match:{year:2007}},{$group:{"_id":"$year", "average_vote":{$avg:"$Votes"}}}])
+
+# Export the fields _id, “title”, “year”, “rating” and “director” from the ‘movies’ collection into a file named partial_data.csv:
+mongoexport  --db entertainment --collection movies --out partial_data.csv --type=csv --fields _id,title,year,rating,director # field names should not have spaces between them

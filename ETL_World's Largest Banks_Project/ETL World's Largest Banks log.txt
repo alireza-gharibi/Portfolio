@@ -1,0 +1,36 @@
+2023-Nov-02-00:13:42 : Preliminaries complete. Initiating ETL process
+2023-Nov-02-00:13:42 : Data extraction complete
+2023-Nov-02-00:13:42 : Fetching Exchange rate
+2023-Nov-02-00:13:44 : Exchange rate loaded. Initiating Transformation process
+2023-Nov-02-00:13:44 : Data transformation complete. Initiating loading process
+2023-Nov-02-00:13:44 : Data saved to CSV file
+2023-Nov-02-00:13:44 : SQL Connection initiated.
+2023-Nov-02-00:13:44 : Data loaded to Database as table. Running the queries
+2023-Nov-02-00:13:44 : Process Complete.
+2023-Nov-02-00:14:39 : Preliminaries complete. Initiating ETL process
+2023-Nov-02-00:14:39 : Data extraction complete
+2023-Nov-02-00:14:39 : Fetching Exchange rate
+2023-Nov-02-00:14:41 : Exchange rate loaded. Initiating Transformation process
+2023-Nov-02-00:14:41 : Data transformation complete. Initiating loading process
+2023-Nov-02-00:14:41 : Data saved to CSV file
+2023-Nov-02-00:14:41 : SQL Connection initiated.
+2023-Nov-02-00:14:41 : Data loaded to Database as table. Running the queries
+2023-Nov-02-00:14:41 : Process Complete.
+2023-Nov-03-18:12:02 : Preliminaries complete. Initiating ETL process
+2023-Nov-03-18:12:02 : Data extraction complete
+2023-Nov-03-18:12:02 : Fetching Exchange rate
+2023-Nov-03-18:12:13 : Exchange rate loaded. Initiating Transformation process
+2023-Nov-03-18:12:13 : Data transformation complete. Initiating loading process
+2023-Nov-03-18:12:13 : Data saved to CSV file
+2023-Nov-03-18:12:13 : SQL Connection initiated.
+2023-Nov-03-18:12:13 : Data loaded to Database as table. Running the queries
+2023-Nov-03-18:12:13 : Process Complete.
+2023-Nov-03-18:15:20 : Preliminaries complete. Initiating ETL process
+2023-Nov-03-18:15:20 : Data extraction complete
+2023-Nov-03-18:15:20 : Fetching Exchange rate
+2023-Nov-03-18:15:29 : Exchange rate loaded. Initiating Transformation process
+2023-Nov-03-18:15:29 : Data transformation complete. Initiating loading process
+2023-Nov-03-18:15:29 : Data saved to CSV file
+2023-Nov-03-18:15:29 : SQL Connection initiated.
+2023-Nov-03-18:15:29 : Data loaded to Database as table. Running the queries
+2023-Nov-03-18:15:29 : Process Complete.
