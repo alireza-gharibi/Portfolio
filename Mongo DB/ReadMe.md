@@ -41,7 +41,7 @@ Write a query to find out the average votes for movies released in 2007:
 db.movies.aggregate([{$match:{year:2007}},{$group:{"_id":"$year", "average_vote":{$avg:"$Votes"}}}])
 ```
 ### Task 5
-Export the fields _id, “title”, “year”, “rating” and “Director” from the ‘movies’ collection into a file named partial_data.csv:
+Export the fields **_id, title, year, rating** and **Director** from the **movies** collection into a file named **partial_data.csv**:
 ```
 mongoexport  --db entertainment --collection movies --out partial_data.csv --type=csv --fields _id,title,year,rating,Director
 ```
