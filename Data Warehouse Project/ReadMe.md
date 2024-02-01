@@ -9,7 +9,7 @@ I am a data engineer hired by a solid waste management company. The company coll
 
 The solid waste management company has provied me the sample data they wish to collect:
 
-![Alt text](solid-waste-trips-new.png)
+![Alt text](https://github.com/alireza-gharibi/Portfolio/blob/main/Data%20Warehouse%20Project/solid-waste-trips-new.png)
 I will use my data warehousing skills to design and implement a data warehouse for the company. \
 The dataset i would be using in this project is not a real life dataset. It was programmatically created for this project purpose.
 
