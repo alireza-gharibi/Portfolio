@@ -24,7 +24,6 @@ Diagram showing the Angle of attack. - For informational purpose:
 docker run --rm -it spark:python3 /opt/spark/bin/pyspark
 ```
 - make sure you have **java** installed on your system.
- ## Project Overview
 ## Objectives
 There are four parts to this project. 
 - In part one, i will perform ETL activities, including loading the CSV dataset, cleaning it, applying transformations, and storing the cleaned data in the parquet format. 
