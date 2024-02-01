@@ -1,4 +1,4 @@
-## Extract, Transform, and Load Data using Python \
+## Extract, Transform, and Load Data using Python 
 [Python Code](https://github.com/alireza-gharibi/Portfolio/blob/main/ETL%20Project%202/Used%20Cars.ipynb)
 
 ### Objectives:
