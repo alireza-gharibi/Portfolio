@@ -17,7 +17,14 @@ Diagram showing the Angle of attack. - For informational purpose:
 - I will begin by cleaning the dataset and removing duplicate rows and rows with null values. Doing this step ensures the data is consistent and reliable for further analysis. 
 - Next, i will construct a Machine Learning pipeline with three stages, including a regression stage. This pipeline will enable me to build a model that predicts the SoundLevel based on other columns in the dataset. 
 - Once i’ve trained the model, i will evaluate its performance using appropriate metrics to assess its accuracy and effectiveness. 
-- Finally, i will persist with the model, saving it for future use. This step ensures that the trained model can be stored and retrieved later, enabling its deployment in real-world applications and making predictions on new data. 
+- Finally, i will persist with the model, saving it for future use. This step ensures that the trained model can be stored and retrieved later, enabling its deployment in real-world applications and making predictions on new data.
+- ## preparing the environment:
+- I start a **spark** container and run **pyspark** in that container:
+```
+docker run --rm -it spark:python3 /opt/spark/bin/pyspark
+```
+- make sure you have **java** installed on your system.
+ ## Project Overview
 ## Objectives
 There are four parts to this project. 
 - In part one, i will perform ETL activities, including loading the CSV dataset, cleaning it, applying transformations, and storing the cleaned data in the parquet format. 
