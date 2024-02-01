@@ -9,8 +9,7 @@ In this project i import the CSV file(**partial_data.csv** which was exported fr
 So let's continue where i left off. take look at [MongoDB project](https://github.com/alireza-gharibi/Portfolio/tree/main/Mongo%20DB) too.
 
 ### Preparing Environment:
-Starting cassandra containers: \
-I create a home lab on my pc:
+I create a home lab on my pc. Starting cassandra containers: 
 ```
 docker network create cass-network
 ```
