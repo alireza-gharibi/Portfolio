@@ -1,5 +1,6 @@
 ## Project Scenario
 An international firm that is looking to expand its business in different countries across the world has recruited me. I have been hired as a junior Data Engineer and am tasked with creating an automated script that can extract the list of all countries in order of their GDPs in billion USDs (rounded to 2 decimal places), as logged by the International Monetary Fund (IMF). Since IMF releases this evaluation twice a year, this code will be used by the organization to extract the information as it is updated.
+[Python Code](https://github.com/alireza-gharibi/Portfolio/blob/main/ETL%20Project%20GDP/ETL%20Project%20GDP.ipynb)
 
 ### Objectives:
 The required information needs to be made accessible as a JSON file **Countries_by_GDP.json** as well as a table **Countries_by_GDP** in a database file **World_Economies.db** with attributes **Country** and **GDP_USD_billion**.
