@@ -3,6 +3,7 @@
 ## Scenario
 I have been tasked by the HR department of a company to create a data pipeline that can take in employee data in a CSV format. My responsibilities include analyzing the data, applying any required transformations, and facilitating the extraction of valuable insights from the processed data. \
 Given my role as a data engineer, i've been requested to leverage Apache Spark components to accomplish the tasks.
+[Project Code](https://github.com/alireza-gharibi/Portfolio/blob/main/Spark/Saprk%202/spark%202%20project.py)
 ## preparing the environment:
 - I start a **spark** container and run **pyspark** in that container:
 ```
