@@ -1,6 +1,6 @@
 ## First Script:
 I've been tasked by my team to create an automated Extract, Transform, Load (ETL) process to extract daily weather forecast and observed weather data(current temprature) and load it into a live report to be used for further analysis by the analytics team. the team wants to use the report to monitor and measure the historical accuracy of temperature forecasts. For each day at noon (local time), i will gather both the actual temperature and the temperature forecasted for noon on the following day for Munich, Germany.
-For this project, i'll use the weather data package provided by the open source project [wttr.in](wttr.in) , a web service that provides weather forecast information in a simple and text-based format.
+For this project, i'll use the weather data package provided by the open source project [wttr.in](https://github.com/chubin/wttr.in) , a web service that provides weather forecast information in a simple and text-based format.
 
 ### Tasks:
 i must extract and store the following data every day at noon, local time, for Munich, Germany:
