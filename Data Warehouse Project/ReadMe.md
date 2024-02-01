@@ -15,14 +15,14 @@ The dataset i would be using in this project is not a real life dataset. It was 
 
 ## Data Modeling
 I will start my project by designing a Star Schema warehouse by identifying the columns for the various dimension and fact tables in the schema.
-### Designing the dimension table MyDimDate:
+### Designing the dimension table **MyDimDate**:
 The company is looking at a granularity of day. Which means they would like to have the ability to generate the report on yearly, monthly, daily, and weekday basis. Here is a list of fields:\
 **date_id, date, day, day_of_week, weekday_name, week_of_month,  month, month_name, quarter, quarter_name , year**
-### Designing the dimension table MyDimWaste:
+### Designing the dimension table **MyDimWaste**:
 **waste_id, waste_type**
-### Designing the dimension table MyDimZone:
+### Designing the dimension table **MyDimZone**:
 **zone_id, zone_name, city**
-### Designing the fact table MyFactTrips:
+### Designing the fact table **MyFactTrips**:
 **trip_id, waste_id, zone_id, date_id, waste_collected_in_tons**
 ## Change of plans
 After the initial schema design [first schema.sql](https://github.com/alireza-gharibi/Portfolio/blob/main/Data%20Warehouse%20Project/First%20Schema.sql), i was told that due to opertional issues, data could not be collected in the format initially planned.This implies that the previous tables **(MyDimDate, MyDimWaste, MyDimZone, MyFactTrips)** and their associated attributes are no longer applicable to the current design. The company has loaded data using CSV files per the new design. I will load the data provided by the company in csv format.
