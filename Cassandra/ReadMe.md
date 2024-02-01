@@ -10,6 +10,7 @@ So let's continue where i left off. take look at [MongoDB project](https://githu
 
 ### Preparing Environment:
 Starting cassandra containers: 
+I create a home lab on my pc:
 ```
 docker network create cass-network
 ```
