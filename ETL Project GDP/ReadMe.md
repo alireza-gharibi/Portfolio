@@ -3,8 +3,8 @@ An international firm that is looking to expand its business in different countr
 
 ### Objectives:
 The required information needs to be made accessible as a JSON file **Countries_by_GDP.json** as well as a table **Countries_by_GDP** in a database file **World_Economies.db** with attributes **Country** and **GDP_USD_billion**.
-My boss wants me to demonstrate the success of this code by running a query on the database table to display only the entries with more than a 100 billion USD economy. \  
-Also, log the entire process of execution in a file named **etl_project_log.txt**.\
+My boss wants me to demonstrate the success of this code by running a query on the database table to display only the entries with more than a 100 billion USD economy.   
+Also, log the entire process of execution in a file named **etl_project_log.txt**.
 
 I must create a Python code **etl_project_gdp.py** that performs all the required tasks.
  
