@@ -8,7 +8,7 @@ Given my role as a data engineer, i've been requested to leverage Apache Spark c
 ```
 docker run --rm -it spark:python3 /opt/spark/bin/pyspark
 ```
-- make sure you have java installed on your system.
+- make sure you have **java** installed on your system.
 
 ## Project Overview
 I create a DataFrame by loading data from a CSV file and apply transformations and actions using **SparkSQL**. This needs to be achieved by performing the following tasks:
