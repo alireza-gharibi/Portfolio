@@ -10,7 +10,8 @@ In this lab i will be using dataset(s):
 
 ![Alt text](https://github.com/alireza-gharibi/Portfolio/blob/main/Spark%20machine%20learning/Spark%20Project%202/Airfoil_with_flow.png)
 
-Diagram showing the Angle of attack. - For informational purpose
+Diagram showing the Angle of attack. - For informational purpose:
+
 ![Alt text](https://github.com/alireza-gharibi/Portfolio/blob/main/Spark%20machine%20learning/Spark%20Project%202/Airfoil_angle_of_attack.jpg)
 
 - I will begin by cleaning the dataset and removing duplicate rows and rows with null values. Doing this step ensures the data is consistent and reliable for further analysis. 
