@@ -2,7 +2,7 @@
 
 ### Objectives
 
-# In this 4 part assignment i will:
+# In this 4 part project i will:
 #
 # - Part 1 Perform ETL activity
 #   - Load a csv dataset
