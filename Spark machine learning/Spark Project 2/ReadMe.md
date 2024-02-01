@@ -18,7 +18,7 @@ Diagram showing the Angle of attack. - For informational purpose:
 - Next, i will construct a Machine Learning pipeline with three stages, including a regression stage. This pipeline will enable me to build a model that predicts the SoundLevel based on other columns in the dataset. 
 - Once i’ve trained the model, i will evaluate its performance using appropriate metrics to assess its accuracy and effectiveness. 
 - Finally, i will persist with the model, saving it for future use. This step ensures that the trained model can be stored and retrieved later, enabling its deployment in real-world applications and making predictions on new data.
-- ## preparing the environment:
+## preparing the environment:
 - I start a **spark** container and run **pyspark** in that container:
 ```
 docker run --rm -it spark:python3 /opt/spark/bin/pyspark
